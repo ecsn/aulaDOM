@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM - Criando elementos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="script05.js"></script>
+    </head>
+
+    <body>
+        <div id="formulario" class="panel panel-primary">
+            <div class="panel-heading">Programação para Web</div>
+                <div class="panel-body">
+                    Nome do aluno: <input type="text"/>
+                    Nota: <input type="text"/>
+                    <span class="glyphicon glyphicon-plus" onclick="novoItem()">
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <table class="table table-striped" id="tabela">
+                        <tr><th>Nome do aluno</th><th>Nota</th></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
